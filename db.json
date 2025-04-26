@@ -4,17 +4,17 @@
     { "id": "Zk5wHKUnGlTn1LHfUPej2CuBaMB2", "name": "MissJiafei", "role": "staff", "vendor_id": 1, "phone": "+85578818097"}
   ],
   "orders": [
-    { "id": 1, "user_id": "aymLMQJL1STWtfqvddFY1NIAytA2", "global_status": "completed", "total_price": 3000.0, "created_at": "2023-10-25T10:00:00Z", "completed_at": "2023-10-25T10:30:00Z"}
+    { "id": "jijjkkkqqie", "user_id": "aymLMQJL1STWtfqvddFY1NIAytA2", "global_status": "completed", "total_quantity": 2, "total_price": 3000.0, "created_at": "2023-10-25T10:00:00Z", "completed_at": "2023-10-25T10:30:00Z"}
   ],
   "vendors": [
-    { "id": 1, "name": "Vendor A", "contact_phone": "+85578818097" }
+    { "id": "tkv7aalfngepand", "name": "Vendor A", "contact_phone": "+85578818097" }
   ],
   "vendor_items": [
-    { "id": 1, "vendor_id": 1, "name": "Rice", "price": 1000.0, "is_available": true, "updated_at": "2023-10-25T09:00:00Z"},
-    { "id": 2, "vendor_id": 1, "name": "Pork", "price": 2000.0, "is_available": true, "updated_at": "2023-10-25T09:01:00Z" }
+    { "id": "jijjkkkqqieqqealkjuifhnx", "vendor_id": "tkv7aalfngepand", "name": "Rice", "description": "White rice", "price": 1000.0, "is_available": true, "updated_at": "2023-10-25T09:00:00Z"},
+    { "id": "ipppqnqaompmpxzpojdaodja", "vendor_id": "tkv7aalfngepand", "name": "Pork", "description": "Pork for rice", "price": 2000.0, "is_available": true, "updated_at": "2023-10-25T09:01:00Z" }
   ],
   "order_items": [
-    { "id": 1, "order_id": 1, "vendor_id": 1, "vendor_item_id": 1, "price": 1000.0, "quantity": 1, "status": "received", "note": null},
-    { "id": 2, "order_id": 1, "vendor_id": 1, "vendor_item_id": 2, "price": 2000.0, "quantity": 1, "status": "received", "note": "Grilled Pork instead of fried"}
+    { "id": "jlppppppdpajdpab", "order_id": "jijjkkkqqie", "vendor_id": "tkv7aalfngepand", "vendor_item_id": "jijjkkkqqieqqealkjuifhnx", "price": 1000.0, "quantity": 1, "status": "received", "note": null},
+    { "id": "jlppppppdpajdpaa", "order_id": "jijjkkkqqie", "vendor_id": "tkv7aalfngepand", "vendor_item_id": "ipppqnqaompmpxzpojdaodja", "price": 2000.0, "quantity": 1, "status": "received", "note": "Grilled Pork instead of fried"}
   ]
 }
